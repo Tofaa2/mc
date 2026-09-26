@@ -1,4 +1,7 @@
-# Prism Petal Valley
+# Samples
+
+![Samples](.github/image.png)
+![Samples with fog](.github/image_fog.png)
 
 A tiny procedural Minecraft-inspired voxel dreamscape written in Rust with Bevy and wgpu.
 
