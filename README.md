@@ -7,17 +7,15 @@ The current vertical slice includes:
 - Streamed seeded terrain: meadows, cherry groves, rocky highlands, snowy peaks, river valleys and beaches
 - Underground caves, deep strata and clustered ores down to Y=-24
 - Exposed-face meshes in 16×16 chunks; edits rebuild only affected chunks
-- A real nearest-neighbor pixel texture atlas at [assets/textures/atlas.png](/home/tofaa/hard_drive/Github/mc/assets/textures/atlas.png)
 - Pink-lavender distance fog, bloom, SSAO, and candy-colored lighting for depth without overloading the GPU
 - GPU-animated translucent water with ripple normals and a Fresnel sky sheen (not real-time reflections)
 - Shared stepped voxel canopies with real leaf gaps, inset foliage layers, pink shading, and subtle sway
 - Ten-minute day/night cycle with a moving shadow-casting sun, moonlight, warm twilight, and matching sky/fog
 - First-person creative flight and mouse look
-- Right-click block placement with four palette materials; left-click mining, with the chunk remeshed after edits
+- Right-click block placement with four palette materials; left-click mining
 - Compact settings panel for time presets, cycle pause/resume, and fog distance
 - Procedural day/night sky with sun, moon, stars, and drifting clouds
 - TAA, temporal shadow filtering, and 4096-pixel directional shadow maps
-- FPS/frame-time counter (four updates per second), idle streaming fast path, and cached chunk-neighbor meshing
 
 Run it with:
 
